@@ -1,0 +1,74 @@
+.container01{
+    display:flex;
+}
+.box-title{
+    font-size:20px; font-weight:bold;
+    flex:70%;
+    margin:5px 0px;
+    text-align:left;
+    letter-spacing:0.5px;
+}
+.item001{
+    font-size:20px;
+    width:150px; height:20px;
+    margin:5px 0px;
+    /* flex:7.5%; */
+    text-align:right;
+}
+.item002{
+    font-size:20px;
+    width:150px; height:20px;
+    margin:5px 0px;
+    /* flex:7.5%; */
+    text-align:right;
+}
+.item003{
+    font-size:20px;
+    width:150px; height:20px;
+    margin:5px 0px;
+    /* flex:7.5%; */
+    text-align:right;
+}
+.item004{
+    font-size:20px;
+    width:150px; height:20px;
+    margin:5px 0px;
+    /* flex:7.5%; */
+    text-align:right;
+}
+
+body{
+    margin:0;
+}
+.container02{
+    background-color:lightblue;
+    height:300px;
+    display:flex;
+    justify-content:center; align-items:center;
+}
+.greeting{
+    width:600px; height:50px;
+    font-size:40px; font-weight:bold;
+    text-align:center;
+}
+
+.container03{
+    width:1200px; margin:5px auto;
+    display:flex; flex-wrap:wrap;
+    justify-content:center; align-items:center;
+}
+.article{
+    flex:none;
+    width:280px; height:230px; background-color:lightgray;
+    display:inline-block;
+    margin:10px 10px;
+}
+.pic{
+    width:100%;
+}
+.title{
+    text-align: center;
+}
+@media(max-width:1200px){
+    .container03.article{width:45%}
+}
