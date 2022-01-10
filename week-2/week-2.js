@@ -84,13 +84,14 @@ console.log(result);
 
 //要求四-解法(2)
 function twoSum(nums,target){
-        let n2 = target - nums[0];
+    for(let i=0; i < nums.length; i++){
+            let n2 = target - nums[i];
         if (nums.includes(n2)){
             let j = nums.indexOf(n2);
-            let i = 0;
             let result2=[i,j];
             return result2;
         }
+    }
 }
 let result2=twoSum([2,11,7,15],9);
 console.log(result2);
