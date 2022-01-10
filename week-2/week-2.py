@@ -70,13 +70,13 @@ def twoSum(nums,target):
 result=twoSum([2,11,7,15],9)
 print(result)
 
-#要求四-解法(2) 時間複雜度為O(n)
+#要求四-解法(2) 時間複雜度為O(n^2)
 def twoSum(nums,target):
-        n2=target-nums[0]
+    for i in range(len(nums)):
+        n2=target-nums[i]
         if (n2 in nums)==True:
             j=nums.index(n2)
-            i=0
             result=[i,j]
             return result
-result=twoSum([2,11,7,15],9)
+result=twoSum([2,11,7,15],26)
 print(result)
