@@ -78,5 +78,5 @@ def twoSum(nums,target):
             j=nums.index(n2)
             result=[i,j]
             return result
-result=twoSum([2,11,7,15],26)
+result=twoSum([2,11,7,15],9)
 print(result)
