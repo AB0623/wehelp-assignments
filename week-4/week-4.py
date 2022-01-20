@@ -17,8 +17,8 @@ def index():
 def signin():
     check1=request.form["id"]
     check2=request.form["key"]
-    session["user"]=check1
     if check1 == "test" and check2 == "test":
+        session["user"]=check1
         return redirect("/member/")
     elif check1 =="" or check2 =="":
         return redirect("/error/?message=請輸入帳號、密碼")
