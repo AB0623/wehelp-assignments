@@ -37,7 +37,6 @@ async function init(){
             }
             sum = n1 + 8;
             next.unshift(sum);
-            alert(next);
         }
         loadData(n1, n2);
 
