@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <link rel="stylesheet" href="/style.css"/>
+        <title>week-6</title>
+    </head>
+    <body>
+        <div class="container01">歡迎光臨，請註冊帳號或登入系統</div>
+        <div class="container02">
+            <form class="form" action="/signup" method="POST">
+                <div class="fillin">註冊帳號</div>
+                <div class="fillin">姓名 <input type="text" name="user_name"/></div>
+                <div class="fillin">帳號 <input type="text" name="user_id"/></div>
+                <div class="fillin">密碼 <input type="password" name="user_password"/></div>
+                <div class="fillin"><button>註冊</button></div>
+            </form>
+            <br/>
+            <div class="line">———————————————</div>
+            <br/>
+            <form class="form" action="/signin" method="POST">
+                <div class="login">登入系統</div>
+                <div class="login">帳號 <input type="text" name="id"/></div>
+                <div class="login">密碼 <input type="password" name="password"/></div>
+                <div class="login"><button>登入</button></div>
+            </form>
+        </div>
+
+    </body>
+</html>
