@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <link rel="stylesheet" href="/style.css"/>
+        <script type="text/javascript"></script>
+        <title>week-7</title>
+    </head>
+    <body>
+        <div class="container01">歡迎光臨，這是會員頁</div>
+        <div class="container02">
+            <div class="success" >{{ name }}，歡迎登入系統</div>
+            <div class="logout"><a class="logout_" href="/signout">登出系統</a></div>
+            <br/>
+            <br/>
+            <div class="success">查詢會員姓名</div>
+            <div><input id="search" type="text" name="username"/> <button onclick="getRes()" >查詢</button></div>
+            <div class="show_username"></div>
+        </div>
+        <script src="/week-7.js"></script>
+    </body>
+</html>
