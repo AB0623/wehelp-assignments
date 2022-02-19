@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    background-color:#F3F0D7;
+}
+.container01{
+    background-color:lightblue;
+    width:auto; height:80px;
+    font-size:30px; font-weight:bold; color:gray;
+    display:flex;
+    justify-content:center; align-items:center;
+}
+.container02{
+    width:auto; height:500px;
+    font-size:25px; font-weight:bold; color:gray;
+    display:flex; flex-wrap:wrap;
+    justify-content:center; align-content:center;
+    text-align:center;
+}
+.container02>.form{
+    width:100%;
+    display:block;
+    margin:auto;
+}
+.container02>.form>.login{
+    margin:10px;
+}
+.container02>.form>.fillin{
+    margin:10px;
+}
+.container02>.line{
+    width:100%;
+}
+.success{
+    width:100%;
+    margin:10px;
+}
+.logout{
+    width:100%; margin:10px;
+    display:flex;
+    justify-content:center; align-items:center;
+}
+.logout>.logout_{
+    width:110px; height:40px;
+    background-color:lightblue;
+    font-size:25px; font-weight:bold; color:gray;
+    text-decoration:none;
+}
+.unsuccess{
+    width:100%;
+    margin:10px;
+}
+.error{
+    width:100%; margin:10px;
+    display:flex;
+    justify-content:center; align-items:center;
+}
+.error>.error_{
+    width:110px; height:40px;
+    background-color:lightblue;
+    font-size:25px; font-weight:bold; color:gray;
+    text-decoration:none;
+}
+@media screen and (max-width:500px){
+    .container01{
+        height:53px;
+        font-size:17px;
+    }
+    .container02{
+        height:331px;
+        font-size:17px;
+    }
+}
